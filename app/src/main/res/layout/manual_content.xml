@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/manual_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+ xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:textSize="@dimen/medium_text_size"
+                    android:drawableStart="@drawable/ic_lightbulb"
+                    android:drawablePadding="@dimen/text_margin"
+                    android:text="@string/lamps"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="1"/>
+
+                    <SeekBar
+                        android:max="100"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lamp1_seekBar"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/lamp1_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="@string/load"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="2"/>
+
+                    <SeekBar
+                        android:max="100"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lamp2_seekBar"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/lamp2_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="@string/load"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="3"/>
+
+                    <SeekBar
+                        android:max="100"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lamp3_seekBar"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/lamp3_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="@string/load"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="4"/>
+
+                    <SeekBar
+                        android:max="100"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lamp4_seekBar"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/lamp4_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="@string/load"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="5"/>
+
+                    <SeekBar
+                        android:max="100"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lamp5_seekBar"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/lamp5_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="@string/load"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="6"/>
+
+                    <SeekBar
+                        android:max="100"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lamp6_seekBar"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/lamp6_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/small_text_size"
+                        android:text="@string/load"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/medium_text_size"
+                        android:drawableStart="@drawable/ic_radiator"
+                        android:drawablePadding="@dimen/text_margin"
+                        android:text="@string/radiator"/>
+
+                    <Switch
+                        android:id="@+id/heater_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/text_margin"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/text_margin"
+                        android:textSize="@dimen/medium_text_size"
+                        android:drawableStart="@drawable/ic_open_in_browser_black_24dp"
+                        android:drawablePadding="@dimen/text_margin"
+                        android:text="@string/flaptitle"/>
+
+                    <ToggleButton
+                        android:id="@+id/flap_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textOff="@string/closed"
+                        android:textOn="@string/opened"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+</ScrollView>

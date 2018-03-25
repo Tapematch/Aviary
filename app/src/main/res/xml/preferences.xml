@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/api_settings"
+        android:key="api_settings">
+
+        <EditTextPreference
+            android:key="api_url_setting"
+            android:summary="@string/api_url_summary"
+            android:title="@string/api_url_title"/>
+
+        <EditTextPreference
+            android:key="api_key_setting"
+            android:summary="@string/api_key_summary"
+            android:title="@string/api_key_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/notification"
+        android:key="notification_setttings">
+
+        <CheckBoxPreference
+            android:key="flap_notification_setting"
+            android:summary="@string/flap_notification_summary"
+            android:title="@string/flap_notification_title"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:dependency="flap_notification_setting"
+            android:key="flap_auto_notification_setting"
+            android:summary="@string/flap_auto_notification_summary"
+            android:title="@string/flap_auto_notification_title"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

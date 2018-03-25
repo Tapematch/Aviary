@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Voliere</string>
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+    <string name="inside">Innen:</string>
+    <string name="outside">Außen:</string>
+    <string name="heater">Heizung %1$s seit %2$s</string>
+    <string name="on">an</string>
+    <string name="off">aus</string>
+    <string name="opened">geöffnet</string>
+    <string name="closed">geschlossen</string>
+    <string name="load">…</string>
+    <string name="temp">%.1f°C</string>
+    <string name="humid">%.1f%%</string>
+    <string name="loading">Wird geladen…</string>
+    <string name="synced">Daten zuletzt aktualisiert: %1$s</string>
+    <string name="lamp">Außenhelligkeit: %1$d Lux\nHelligkeit verringert um %2$d%%</string>
+    <string name="flap">Ausflugklappe wurde %1$s %2$s</string>
+    <string name="no_network_connection">Keine Internetverbindung…</string>
+    <string name="dashboard">Übersicht</string>
+    <string name="history">Historie</string>
+    <string name="lampconfig">Lampenkonfiguration</string>
+    <string name="config">Konfiguration</string>
+    <string name="settings">Einstellungen</string>
+    <string name="manual">Manuelle Steuerung</string>
+
+    <string name="hysteresis_title">Hysterese</string>
+    <string name="low_temp_alarm_title">Temperatur-Alarm</string>
+    <string name="lux_dim_title">Helligkeitsanpassung</string>
+    <string name="lux_dim_percent_title">Intensität Helligkeitsanpassung</string>
+    <string name="temp_open_flap_title">Temperatur Ausflugklappe</string>
+    <string name="temp_target_title">Temperatur</string>
+    <string name="time_open_flap_title">Startzeit Ausflugklappe</string>
+    <string name="time_end_open_flap_title">Endzeit Ausflugklappe</string>
+
+    <string name="hysteresis_description">Heizung wird geschaltet, wenn Ist-Temperatur um %.1f°C von Soll-Temperatur abweicht</string>
+    <string name="low_temp_alarm_description">Alarm wird ausgelöst, wenn Temperatur %.1f°C erreicht</string>
+    <string name="lux_dim_description">Helligkeit wird verringert, wenn Außenhelligkeit %.0f Lux erreicht</string>
+    <string name="lux_dim_percent_description">Helligkeit wird in %.0f Lux-Schritten um 1%% verringert</string>
+    <string name="temp_open_flap_description">Ausflugklappe wird automatisch geöffnet, wenn Außentemperatur mindestens %.1f°C beträgt</string>
+    <string name="temp_target_description">Soll-Temperatur beträgt %.1f°C</string>
+    <string name="time_open_flap_description">Ab %1$02d:%2$02d Uhr wird die Ausflugklappe automatisch geöffnet</string>
+    <string name="time_end_open_flap_description">Bis %1$02d:%2$02d Uhr wird die Ausflugklappe automatisch geöffnet</string>
+
+    <string name="load_title">Bitte warten</string>
+    <string name="load_description">Daten werden geladen…</string>
+
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
+
+    <string name="saved">Erfolgreich gespeichert</string>
+    <string name="deleted">Erfolgreich gelöscht</string>
+    <string name="error">Fehler</string>
+
+    <string name="section_format">Konfiguration für Lampe: %1$d</string>
+    <string name="lamp_number">Lampe %1$d</string>
+
+    <string name="time">%1$02d:%2$02d Uhr</string>
+    <string name="percent">%d %%</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="temperatur">Temperatur</string>
+    <string name="humidity">Luftfeuchtigkeit</string>
+    <string name="lamps">Lampen</string>
+    <string name="radiator">Heizung</string>
+    <string name="flaptitle">Ausflugklappe</string>
+    <string name="light">Helligkeit</string>
+    <string name="period">Zeitraum:</string>
+    <string name="activate">Aktivieren?</string>
+    <string name="sureactivate">Wenn Sie die manuelle Steuerung aktivieren, wird die automatische Steuerung für diese Zeit ausgesetzt.</string>
+    <string name="back">Zurück</string>
+    <string name="deactivate">Die manuelle Steuerung wird beendet und die automatische Steuerung wird fortgesetzt!</string>
+    <string name="api_settings">API</string>
+
+    <string name="api_url_title">URL</string>
+    <string name="api_url_summary">Die URL zur RESTful Aviary-API</string>
+    <string name="api_key_title">Key</string>
+    <string name="api_key_summary">Der Authentifizierungsschlüssel</string>
+    <string name="notification">Benachrichtigungen</string>
+    <string name="flap_notification_title">Ausflugklappe</string>
+    <string name="flap_notification_summary">Benachrichtigungen erhalten, wenn Ausflugklappe geöffnet oder geschlossen wird</string>
+    <string name="flap_auto_notification_title">Nur bei Automatik</string>
+    <string name="flap_auto_notification_summary">Benachrichtigungen nur erhalten, wenn die Ausflugklappe automatisch geöffnet wurde</string>
+    <string name="settings_wrong_title">Fehler</string>
+    <string name="settings_wrong_message">Fehler bei der Verbindung zum Server.\n%s</string>
+    <string name="open_settings">Einstellungen öffnen</string>
+    <string name="close">Schließen</string>
+    <string name="settings_not_set_title">Konfiguration erforderlich</string>
+    <string name="settings_not_set_message">Benötigte API-Einstellungen wurden nicht gesetzt.</string>
+    <string name="synced_time">Systemzeit: %1$s</string>
+    <string name="camera">Kamera</string>
+</resources>
